@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-image: url('https://wallpapercave.com/wp/wp7357217.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.cabeçalho{
+  background: black;
+  display: flex;
+  justify-content:space-around;
+  padding: 25px 40px;
+  align-items: center;
+  height: 60px;
+}
+.cabeçalho{
+  /* position: fixed; */
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+img{
+  max-width: 100%;
+}
+.logo{
+  width: 200px;
+}
+.menu-lista{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  gap: 20px;
+}
+a:hover{
+  color: rgb(187, 3, 13);
+  text-decoration: none;
+  font-weight: bold;
+}
+a{
+  color: darkgray;
+  text-decoration: none;
+  padding: 10px;
+}
+.section1{
+  background-color: rgb(59, 57, 50);
+  opacity: 50%;
+  width: 100vw;
+  height: 200px;
+  text-align: center;
+  /* padding-top: 150px; */
+}
+.section2{
+  background-color: rgb(90, 89, 85);
+  opacity: 50%;
+  width: 100vw;
+  height: 200px;
+  text-align: center;
+
+}
+.section3{
+  background-color: rgb(133, 133, 133);
+  opacity: 50%;
+  width: 100vw;
+  height: 200px;
+  text-align: center;
+}
+.titulo{
+  color: white;
+}
+section{
+  padding-top: 50px;
+}
+#area1{
+
+}
+#area2{
+
+}
+#area3{
+
+}
+/* text-transform: uppercase; <- deixar os conteúdos em caixa alta */
